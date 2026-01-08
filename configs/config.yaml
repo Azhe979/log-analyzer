@@ -1,0 +1,10 @@
+app:
+  name: log-analyzer
+  env: dev
+
+log:
+  level: INFO
+
+input:
+  paths:
+    - /var/log/messages
